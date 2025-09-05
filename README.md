@@ -28,7 +28,7 @@ To check if our word "fits" (AKA, doesn't contain any letters in previous guesse
 
 There are two major pruning techniques. The first is to realize that we don't need to use the 2000+ words list each guess, we can use the list of words that was found from the previous guess. For example, if the previous guess found that only 1000 words could be fit as a first guess, then we know that for the second guess, there can be at most those 1000 words that can fit.
 
-The last one is to sort all words in their integer format from lowest to highest. Then, when we do a guess and it happened to be a word with the number 9182, then we know for a fact that the next guess must be >9182, because any word under that will lead into a duplicate case we've already seen before. This way we only get unique and sorted solutions. You can see this by noticing all solutions in "results/solutions" tends to go from a-z.
+The last one is to sort all words in their integer format from lowest to highest. Then, when we do a guess and it happened to be a word with the number 9182, then we know for a fact that the next guess must be >9182, because any word under that will lead into a duplicate case we've already seen before. This way we only get unique and sorted solutions. You can see this by noticing all solutions in "solutions" tends to go from a-z.
 
 ## Why?
 felt like it

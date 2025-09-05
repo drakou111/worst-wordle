@@ -140,5 +140,5 @@ fn search(allowed_path: &str, answer_path: &str, output_folder: &str, number_of_
     println!("Done!");
 }
 fn main() {
-    search("data/allowed.txt", "data/answers.txt", "data/solutions", 6);
+    search("data/allowed.txt", "data/answers.txt", "solutions", 6);
 }

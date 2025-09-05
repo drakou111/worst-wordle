@@ -8,7 +8,7 @@ The goal of this project was to simply find all possible games of Wordle where t
 This idea came from Ellie  Hasmussen, in their video [You should play Wordle wrong](https://www.youtube.com/watch?v=zoh5eLOjwHA), which tried to solve this idea.
 
 ## Format
-"solutions" contains every single solution for every single word, for a total of 2,262,234 *unique* solutions.
+"solutions" contains every single solution for every single word, for a total of 2,262,234 *unique* solutions. "seven" contains all 7 solutions for the version where you get 7 guesses instead of 6 (I was quite surprised to see this result).
 
 When I say a "unique" solution, it means that it accounts for all guess orders possible (guess "house" then "apple" is identical to guessing "apple" then "house" in the context of Worst Wordle, and also accounts for the fact that multiple words can act the same. For example, "erode", "odder", "rodeo" and "order" all contain the same letters ('e', 'r', 'o' and 'd'), so a solution will pretend that all of those is only one word.
 

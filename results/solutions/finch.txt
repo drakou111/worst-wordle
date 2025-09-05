@@ -1,0 +1,5 @@
+finch -> bombo, peepe, qajaq, grrrl, xysts, kudzu
+finch -> bombo, qajaq, grrrl, peeve, xysts, kudzu
+finch -> bombo, qajaq, grrrl, pewee, xysts, kudzu
+finch -> peepe, qajaq, grrrl, oxbow, stymy, kudzu
+finch -> qajaq, grrrl, peeve, oxbow, stymy, kudzu

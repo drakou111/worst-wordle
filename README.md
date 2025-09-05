@@ -1,0 +1,4 @@
+# Worst Wordle
+This repository contains code for finding all wordle games that could lead to all tiles being grey. The solutions can be found in the "results" folder. "per_answer.txt" contains 1 solution per answer (excluding answers that has 0 solutions). "results/solutions" contains every single solution for every single word, for a total of 2,262,234 unique solutions.
+
+When I say a "unique" solution, it means that it accounts for all guess orders possible, and also accounts for the fact that multiple words can act the same. For example, "erode", "odder", "rodeo" and "order" all contain the same letters ('e', 'r', 'o' and 'd'), so a solution will pretend that all of those is only one word.

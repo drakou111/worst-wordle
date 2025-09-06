@@ -30,5 +30,21 @@ There are two major pruning techniques. The first is to realize that we don't ne
 
 The last one is to sort all words in their integer format from lowest to highest. Then, when we do a guess and it happened to be a word with the number 9182, then we know for a fact that the next guess must be >9182, because any word under that will lead into a duplicate case we've already seen before. This way we only get unique and sorted solutions. You can see this by noticing all solutions in "solutions" tends to go from a-z.
 
+## Other info
+### What's the strategy to win in a real game?
+If you want to try winning in an actual game, these are the best solutions (they each work for 10 answers) (odds of getting all grey in a random game is 0.432%):
+
+[pfftt, urubu, weeke, xviii, gynny, zocco]
+works for answers: [amass, llama, madam, mamma, salad, salsa, shall, slash, small, smash]
+
+[qajaq, pfftt, susus, xviii, gynny, zorro]
+works for answers: [beech, belch, belle, bleed, cheek, check, embed, emcee, leech, melee]
+
+[pfftt, susus, mahwa, xviii, gynny, jeeze]
+works for answers: [block, blood, brood, brook, clock, color, crock, crook, droll, drool]
+
+### What words are required to make wrong wordles possible?
+If none of these words were included in the allowed words: [grrls, cwtch, phpht, pfftt, crwth, grrrl], then it would be impossible to get a fully gray wordle.
+
 ## Why?
 felt like it

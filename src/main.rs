@@ -77,7 +77,7 @@ fn search_for_bad_games(
     }
 
     for new_guess in &can_play {
-        if (new_guess <= last_word) {
+        if new_guess <= last_word {
             continue;
         }
         word_list.push(*new_guess);
